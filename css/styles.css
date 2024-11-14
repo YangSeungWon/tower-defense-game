@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+    display: block;
+    margin: 0 auto;
+    background: #333;
+    border: 2px solid #fff;
+}
+
+/* 업그레이드 UI 추가 스타일 */
+.upgrade-button {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.upgrade-button:hover {
+    background-color: darkgray;
+} 

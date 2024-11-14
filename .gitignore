@@ -1,0 +1,11 @@
+# Node.js
+node_modules/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# 기타 무시할 파일들
+.DS_Store 
